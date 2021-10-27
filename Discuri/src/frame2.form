@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="frame2">
+  <grid id="27dc6" binding="rootPanel2" layout-manager="GridLayoutManager" row-count="11" column-count="7" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="20">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="855" height="521"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <component id="eb31d" class="javax.swing.JRadioButton" binding="btnMichael">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="5" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-14073"/>
+          <font size="18"/>
+          <text value="Michael Jackson - Bad -(1982) - 100 RON"/>
+        </properties>
+      </component>
+      <component id="600df" class="javax.swing.JRadioButton" binding="btnJimi">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-14073"/>
+          <font size="18"/>
+          <text value="Jimi Hendrix  - Hendrix Experience (1967) - 135 RON"/>
+        </properties>
+      </component>
+      <component id="32c47" class="javax.swing.JRadioButton" binding="btnFrank">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="6" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-14073"/>
+          <enabled value="true"/>
+          <font size="18"/>
+          <text value="Frank Sinatra - My Way (1969) - 140 RON "/>
+        </properties>
+      </component>
+      <component id="cd343" class="javax.swing.JButton" binding="btnCos">
+        <constraints>
+          <grid row="10" column="0" row-span="1" col-span="7" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Adauga in cos"/>
+        </properties>
+      </component>
+      <hspacer id="b2a21">
+        <constraints>
+          <grid row="5" column="2" row-span="5" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <component id="a99c9" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="9" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Total (+Transport 15 RON)"/>
+        </properties>
+      </component>
+      <component id="d99f7" class="javax.swing.JTextField" binding="txtSubtotal">
+        <constraints>
+          <grid row="6" column="1" row-span="3" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="9c50d" class="javax.swing.JLabel" binding="JLabel">
+        <constraints>
+          <grid row="7" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Subtotal:"/>
+        </properties>
+      </component>
+      <component id="a2be0" class="javax.swing.JTextField" binding="txtTotal">
+        <constraints>
+          <grid row="9" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="e00d2" class="javax.swing.JButton" binding="btnCalculeaza">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Calculeaza"/>
+        </properties>
+      </component>
+      <component id="f750a" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="6" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font size="22"/>
+          <text value="Selectia noastra de discuri:"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
